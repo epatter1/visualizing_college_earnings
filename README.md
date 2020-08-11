@@ -1,7 +1,7 @@
 # Visualizing Gap in College Degrees between Men and Women
 
-[View here!](https://nbviewer.jupyter.org/github/epatter1/visualizing_college_earnings/blob/master/Visualizing%20Gap%20in%20College%20Degrees%20between%20Men%20and%20Women.ipynb
-) :eyes:
+**[View here!](https://nbviewer.jupyter.org/github/epatter1/visualizing_college_earnings/blob/master/Visualizing%20Gap%20in%20College%20Degrees%20between%20Men%20and%20Women.ipynb
+)** :eyes:
 > ### Goal: Utilize Matplotlib and Seaborn to visualize the gender gap across college degrees. Generate line charts to compare across various STEM degree categories.
 
 On the outset, the immediate issue that stuck out is the titles of some line charts overlapping with the x-axis labels for the line chart above it. In removing the titles for each line chart, the viewer won't know what degree each line chart refers to. Instead, I removed the x-axis labels for every line chart in a column except for the bottom-most one using ***Axes.tick_params()*** and setting the ***labelbottom*** parameter to off.
